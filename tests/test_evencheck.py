@@ -1,5 +1,5 @@
 import pytest
-import evencheck
+from programs import evencheck
 
 
 def test_check_even():
