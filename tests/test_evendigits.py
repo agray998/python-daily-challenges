@@ -1,5 +1,5 @@
 import pytest
-import programs.evendigits
+from programs import evendigits as evendigits
 
 def test_evendigits():
     assert evendigits.even_digits(10, 30) == "20,22,24,26,28,"

@@ -1,4 +1,4 @@
-import evencheck
+import programs.evencheck as evencheck
 
 
 def even_digits(x, y):
