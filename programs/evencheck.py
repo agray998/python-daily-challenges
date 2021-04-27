@@ -1,6 +1,7 @@
 def is_prime(x):
-    for n in range(2, x//2):
+    for n in range(2, (x//2)+1):
         if x % n == 0:
+            return False
             break
         else:
             pass
