@@ -1,4 +1,4 @@
-import evencheck
+from programs import evencheck
 
 
 def even_digits(x, y):
@@ -15,6 +15,3 @@ def even_digits(x, y):
     return evendigits
 
 
-num_1 = int(input("Enter a lower bound: "))
-num_2 = int(input("Enter an upper bound: "))
-print(even_digits(num_1, num_2))
