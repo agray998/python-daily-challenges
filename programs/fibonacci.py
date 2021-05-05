@@ -1,9 +1,9 @@
 def fib(n):
     x = int(n)
     if x >= 0:
-        if n == 0:
+        if x == 0:
             return 0
-        elif n == 1:
+        elif x == 1:
             return 1
         return fib(x-1) + fib(x-2)
     else:
